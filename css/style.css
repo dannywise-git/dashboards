@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(31, 30, 30); */
+}
+.nav-container{
+    width: 100%;
+    background-color: rgb(14, 21, 39);
+    color: #fff;
+    border-bottom: 1px solid rgb(102, 90, 90);
+}
+.mdi-moon-waning-gibbous{
+    color: rgb(14, 21, 39);
+}
+.nav-bar{
+    width: 85%;
+    max-width: 1720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+}
+.nav-menu{ 
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+  margin-right: 25em;
+    list-style: none;
+    margin-top: 11px;
+
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.line{
+    height: inherit;
+    border-bottom: 2px solid white;
+    text-align: center;
+    padding: 18px 0px;
+}
+.line2{
+    padding: 18px 0px;
+}
+.line2:hover{
+    border-bottom: 2px solid #fff;
+}
+.menu-toggle .bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(243, 237, 237);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.mdi{
+    margin-right: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+    cursor: pointer;
+}
+.opy{
+    opacity: 0.7;
+}
+.nav-links:hover{
+    opacity: 1 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.wel{
+    opacity: 0.7;
+}
+.deep{
+    opacity: 1;
+}
+.container-1{
+    background-color: rgb(14, 21, 39);
+    padding: 2em 0em;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cen{
+    border-radius: 9px;
+    margin-left: 4px;
+    border: 2px solid rgb(241, 238, 238);
+}
+.con{
+    width: 85%;
+    max-width: 1720px;
+    margin: 0 auto;
+
+}
+.side{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.con-1 img{
+    margin-top: 30px;
+    width: 25%;
+    height: 180px;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-1{
+    cursor: pointer;
+    background: none;
+    color: rgb(158, 154, 154);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-2{
+    cursor: pointer;
+    background: none;
+    color: rgb(122, 117, 117);
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    width: 70%;
+    height: 25em;
+}
+.img-1{
+    width: 30%;
+    height: 25em;
+}
+.mar{
+    margin-top: 15px;
+}
+.box{
+    border: 2px solid rgb(216, 206, 206);
+    border-radius: 5px;
+    padding: 10px 0px 0px 0px;
+    margin: 20px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+th, td{
+    padding: 7px; 
+    border-bottom: 2px solid rgb(204, 195, 195);
+}
+.progress{
+    height: 8px !important;
+    padding: 0px !important;
+    margin-top: 20px;
+    background-color: rgb(151, 151, 135) !important;
+}
+p{
+    margin-bottom: 0px !important;
+}
+.progress-bar{
+    font-size: 10px;
+    width: 95%;
+    height: 8px !important;
+    color: black !important;
+    background-color: rgb(48, 44, 44) !important;
+}
+.too {
+    width: 60% !important;
+}
+.three{
+    width: 12% !important;
+}
+.four{
+    width: 57% !important;
+}
+.five{
+    width: 88% !important;
+}
+.dot{
+    padding: 4px;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.circle-1{
+    width: 55%;
+    color: rgb(8, 63, 45);
+    background-color: rgb(157, 204, 188);
+    border: 2px solid rgb(8, 63, 45);
+}
+.circle-2{
+    width: 70%;
+    color: rgb(100, 21, 1);
+    background-color: rgb(235, 153, 132);
+    border: 2px solid rgb(100, 21, 1);
+}
+.circle-3{
+    width: 55%;
+    color: rgb(5, 48, 114);
+    background-color: rgb(157, 195, 226);
+    border: 2px solid rgb(5, 48, 114);
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/query.css">
+    <link rel="stylesheet" href="./MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="icon" href="./img/logo.PNG">
+    <title>Dashboard</title>
+</head>
+<body>  
+    <header class="nav-container">
+        <nav class="nav-bar">
+            <a href="#"><img src="./img/logo.PNG" alt=""></a>
+            <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span> 
+            </div>
+            <div class="nav-menu"> 
+                <ul>
+                    <li class="line" ><a href="#" class="nav-links active">Dashboard</a></li> 
+                    <li class="line2"><a href="#" class="nav-links opy">Leads</a></li>
+                    <li class="line2"><a href="#" class="nav-links opy">Customer</a></li>
+                    <li class="line2"><a href="#" class="nav-links opy">Reports</a></li>
+                    <li class="line2" ><a href="#" class="nav-links opy">Sales</a></li>
+                </ul>
+                <div class="head">
+                    <i class="mdi mdi-magnify"></i>
+                    <i class="mdi mdi-bell-plus-outline"></i>
+                    <img src="./img/img1.PNG" style="width: 20%;" alt=""> 
+                    <p class="opy"> Olalekan Daramola</p>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div class="container-1">
+        <div class="con con-1">
+           <div class="flex">
+                <h2 class="span"><span class="wel">Welcome back,</span> <span class="deep">Olalekan</span></h2>
+                <div>
+                    <i class="mdi mdi-white-balance-sunny" id="toggledark"></i>
+                    <!-- <i class="mdi mdi-moon-waning-gibbous"></i> -->
+                    <button class="btn-1">Add New Load</button>
+                </div> 
+           </div>
+           <div class="flex">
+             <img class="cen" src="./img/img4.PNG" alt="">
+             <img  class="cen" src="./img/img5.PNG" alt="">
+             <img class="cen" src="./img/img6.PNG" alt="">
+             <img class="cen" src="./img/img7.PNG" alt="">
+            </div> 
+        </div>
+    </div>
+    <div class="con flex mar">
+        <img class="img" src="./img/img2.PNG" alt="">
+        <img  class="img-1" src="./img/img3.PNG" alt="">
+    </div>
+    <div class="con box">
+        <div class="side">
+            <h2>Leads Performance</h2>
+            <button class="btn-2">View all Loads</button>
+        </div>
+        <table>
+            <tr class="but">
+                <th>Customer</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Lead score</th>
+                <th>Last Activity</th>
+            </tr>
+            <tr>
+                <td>Olalekan Daramola</td>
+                <td>olalekandaramola@gmail.com</td>
+                <td>090000000000</td>
+                <td ><div class="dot circle-1">Hot lead</div></td>
+                <td class="one">
+                <div class="progress"><div class="progress-bar"></div></div><p>95%</p>
+                </td>
+                <td>phone</td>
+            </tr>
+            <tr>
+                <td>Camron Williamson</td>
+                <td>hackmanh08@gmail.com</td>
+                <td>090000000000</td>
+                <td ><div class="dot circle-2">Qualified Lead</div></td>
+                <td>
+                <div class="progress"><div class="progress-bar too"></div></div><p>60%</p>
+                </td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Jenny Wilson</td>
+                <td>vuhaithoungnute@gmail.com</td>
+                <td>090000000000</td>
+                <td ><div class="dot circle-3">New Lead</div></td>
+                <td>
+                <div class="progress"><div class="progress-bar three"></div></div><p>12%</p>
+                </td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Leslie Alexander</td>
+                <td>danghoang87hl@gmail.com</td>
+                <td>090000000000</td>
+                <td ><div class="dot circle-1">Hot lead</div></td>
+                <td>
+                <div class="progress"><div class="progress-bar four"></div></div><p>57%</p>
+                </td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Wade Warren</td>
+                <td>tienlapspktnd@gmail.com</td>
+                <td>090000000000</td>
+                <td ><div class="dot circle-2">Qualified Lead</div></td>
+                <td>
+                <div class="progress"><div class="progress-bar five"></div></div><p>88%</p>
+                </td>
+                <td>phone</td>
+            </tr>
+        </table>
+    </div>
+<script src="./js/app.js"></script>
+</body>
+</html>
